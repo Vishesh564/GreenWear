@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+   <style type="text/css">
+       .navbar{
+           background-color: green;
+           display: flex;
+           height: 2.2rem;
+           margin-top: 0px;
+           width:100%
+           font-size: 2rem;
+           border-radius: 1rem;
+         }
+         div button{
+           background: transparent;
+           border:none;
+           color: white;
+           margin-top: 0px;
+           font-size: 1rem;
+           text-indent: 150px;
+         }
+         button:hover{
+           background-color: lightgreen;
+           color: black;
+         }
+   </style>
+</head>
+<body>
+    <main>
+        <div class="navbar">
+            <nav>
+              <ul>
+                <div class="button">
+                <button id="home">Home</button>
+                <button id ="pro">Products</button>
+                <button id="cont">Contact</button>
+                </div>
+              </ul>
+            </nav>
+            </div>
+       <h1>Coming Soon</h1>
+      <p>This Section is still under development</p>
+    </main>
+    <script type="text/javascript">
+          document.getElementById("home").onclick = function(){
+            location.href = "index.html";
+          }
+          document.getElementById("pro").onclick = function(){
+            location.href = "products.html";
+          }
+          document.getElementById("cont").onclick = function(){
+            location.href = "contact.html";
+          }
+    </script>
+    <footer>
+        <p>&copy; 2024 GreenWear</p>
+    </footer>
+</body>
+</html>
